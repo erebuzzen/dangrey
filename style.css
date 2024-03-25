@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header {
+  display: flex;
+  padding: 100px;
+  gap: 20px;
+  height: 100vh;
+}
+
+.image img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px black;
+}
+
+span {
+  color: rgb(255, 32, 78);
+  font-weight: 600;
+}
+
+.parag p {
+  font-size: 23px;
+  margin-bottom: 3rem;
+}
+
+.friends h1 {
+  margin-bottom: 10px;
+}
+
+.image2 img {
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 1px black;
+}
